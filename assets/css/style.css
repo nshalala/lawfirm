@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #57614d;
+}
+header nav .nav-link {
+  font: bold 13px "Lora", serif;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #8d9a82;
+  text-align: right;
+  filter: drop-shadow(0.5px 0.866px 0px rgba(0, 0, 0, 0.3));
+}
+header nav .nav-link.active, header nav .nav-link:hover {
+  color: #fff;
+}
+
+.sec1 {
+  background-color: #d9d9d9;
+}
+.sec1 .card {
+  background-color: #e9e9e9;
+  border: 1px solid #ffffff;
+}
+.sec1 .card .card-text {
+  font: 30px "Lora", serif;
+  line-height: 48px;
+  color: #4e5944;
+  text-align: center;
+}
+
+.sec2 {
+  background-color: #e1e1e1;
+}
+
+.sec3 {
+  background-color: #e1e1e1;
+}/*# sourceMappingURL=style.css.map */
